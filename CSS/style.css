@@ -1,0 +1,127 @@
+
+header{
+    background-image: url(./../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home{
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.home h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+}
+.navside{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    height: 100vh;
+    width: 270px;
+    cursor: pointer;
+    left: -270px;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.navside ul{
+    margin-top: 60px;
+}
+.navside ul li{
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.navside ul li:hover {
+    color: #D62E33;
+}
+.navside .closemark{
+    text-decoration: none;
+    color: white;
+}
+.navside .closemark:hover{
+    color: #D62E33;
+}
+
+.opennav{
+    position: absolute;
+    top: 350px;
+    /*left: 280px;*/
+    left:10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition:all 0.7s ;
+    -webkit-transition:all 0.7s ;
+    -moz-transition:all 0.7s ;
+    -ms-transition:all 0.7s ;
+    -o-transition:all 0.7s ;
+}
+
+.sildes{
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 50%;
+    cursor: pointer;
+}
+.sildes h3{
+    padding: 7px 0;
+    color: white;
+}
+.sildes p{
+    display: none;
+    padding: 10px;
+    background-color: #ccc;
+}
+.count{
+    background-image: url(./../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 100px 0;
+}
+
+.inner{
+    border: 1px solid white;
+    padding: 50px;
+}
+
+.join{
+    margin-top: 100px;
+}
+
+.social__mediaIcons li{
+    border: 1px solid gray;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+.social__mediaIcons li:hover{
+    background-color: #D62E33;
+    color: white;
+}
